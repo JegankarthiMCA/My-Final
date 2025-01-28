@@ -18,7 +18,7 @@ const CertificatePage = ({ route }) => {
         }
 
         // Fetch user data
-        const userResponse = await axios.get('http://192.168.209.7:8002/profile', {
+        const userResponse = await axios.get('http://172.16.22.187:8002/profile', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -28,7 +28,7 @@ const CertificatePage = ({ route }) => {
         setName(userResponse.data.name);
         
         // Fetch courses data
-        const coursesResponse = await axios.get('http://192.168.209.7:8002/courses', {
+        const coursesResponse = await axios.get('http://172.16.22.187:8002/courses', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -74,7 +74,7 @@ const CertificatePage = ({ route }) => {
           source={require('../assets/certificate1.jpg')} 
           style={styles.backgroundImage}
         />
-        <Text style={styles.title}>Code Best App</Text>
+        <Text style={styles.title}>Learning App</Text>
         <Text style={styles.title1}>Certificate of Completion</Text>
         <Text style={styles.name}>{name}</Text>
         <Text style={styles.course}>has completed the course</Text>

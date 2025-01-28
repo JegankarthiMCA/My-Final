@@ -11,7 +11,7 @@ export default function UserHomePage({ navigation }) {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await axios.get('http://192.168.209.7:8002/courses');
+        const response = await axios.get('http://172.16.22.187:8002/courses');
         // Categorize courses
         const devCourses = response.data.filter(course => course.category === 'Development');
         const progCourses = response.data.filter(course => course.category === 'Programming');

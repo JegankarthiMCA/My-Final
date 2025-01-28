@@ -40,7 +40,7 @@ export default function LoginPage({ route }) {
     const userData = { email: email, password: password };
 
     try {
-      const response = await axios.post("http://192.168.209.7:8002/login-user", userData);
+      const response = await axios.post("http://172.16.22.187:8002/login-user", userData);
       console.log(response.data);
 
       if (response.data.status === 'ok') {

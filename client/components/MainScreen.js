@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import mainlogo from '../assets/main.jpg';
+import mainlogo from '../assets/learnmain.png';
 import { FontAwesome } from '@expo/vector-icons';
 
 const MainScreen = ({ navigation }) => {
@@ -21,11 +21,12 @@ export default MainScreen;
 
 const styles = StyleSheet.create({
   container: {
-    height: '100%',
+    height: '110%',
     width: '100%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#34495e',
   },
   head: {
     color: 'white',
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
   logoimg: {
     position: 'absolute',
     width: '100%',
-    height: '100%',
+    height: '50%',
   },
   searchIcon: {
     top: '17.2%',
@@ -52,9 +53,9 @@ const styles = StyleSheet.create({
     marginLeft: '-21%',
   },
   button2: {
-    color: 'white',
+    color: 'black',
     fontSize: 18,
-    backgroundColor: '#9c6bff',
+    backgroundColor: '#5dade2',
     padding: 10,
     borderRadius: 30,
     marginTop: 450

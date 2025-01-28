@@ -16,7 +16,7 @@ const Codehomepage = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://192.168.209.7:8002/get-data'); // Replace with your server IP
+      const response = await axios.get('http://172.16.22.187:8002/get-data'); // Replace with your server IP
       setData(response.data);
     } catch (error) {
       setError('Error fetching data');
@@ -39,7 +39,7 @@ const Codehomepage = () => {
           onPress: async () => {
             setDeleting(true);
             try {
-              const response = await axios.delete(`http://192.168.209.7:8002/delete-data/${name}`);
+              const response = await axios.delete(`http://172.16.22.187:8002/delete-data/${name}`);
               if (response.status === 200) {
                 // Remove the user from the local state by name
                 setData((prevData) => prevData.filter(item => item.name !== name));

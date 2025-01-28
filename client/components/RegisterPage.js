@@ -52,7 +52,7 @@ export default function RegisterPage() {
         }
 
         const userData = { name, email, mobile, password };
-        axios.post("http://192.168.209.7:8002/register", userData)
+        axios.post("http://172.16.22.187:8002/register", userData)
         // axios.post("http://192.168.209.3:8002/register", userData)
 
             .then((res) => {

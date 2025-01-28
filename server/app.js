@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB connection URL
-const mongoUrl = 'link mongodb'; // Change 'myDatabase' to your actual DB name
+const mongoUrl = 'mongodb+srv://jegankjack121:12345@cluster0.qbb81tx.mongodb.net/learnapp'; // Change 'myDatabase' to your actual DB name
  // Change 'myDatabase' to your actual DB name
 
 // Connect to MongoDB

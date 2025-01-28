@@ -23,7 +23,7 @@ const Profile = ({ navigation }) => {
       if (!token) {
         throw new Error('No token found');
       }
-      const response = await axios.get('http://192.168.209.7:8002/profile', {
+      const response = await axios.get('http://172.16.22.187:8002/profile', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -71,7 +71,7 @@ const Profile = ({ navigation }) => {
       if (!token) {
         throw new Error('No token found');
       }
-      const response = await axios.put('http://192.168.209.7:8002/profile', editedUserData, {
+      const response = await axios.put('http://172.16.22.187:8002/profile', editedUserData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

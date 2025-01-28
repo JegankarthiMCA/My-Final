@@ -7,21 +7,21 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/codelogo.png",
+      "image": "./assets/learnlogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/codelogo.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/learnlogo.png",
+        "backgroundColor": "#000000"
       }
     },
     "web": {
-      "favicon": "./assets/codelogo.png"
+      "favicon": "./assets/learnlogo.png"
     }
   }
 }
