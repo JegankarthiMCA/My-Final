@@ -35,7 +35,7 @@ const Search = () => {
       );
       setFilteredData(filtered);
     } else {
-      setFilteredData(DATA.slice(0, 2)); // Reset to the default 2 items when search is cleared
+      setFilteredData(DATA.slice(0, 15)); // Reset to the default 2 items when search is cleared
     }
   };
 
@@ -106,9 +106,10 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ccc',
   },
   itemImage: {
-    width: 60, // Set the desired width
-    height: 50, // Set the desired height
-    marginRight: 10, // Space between image and text
+    alignItems: 'center',
+    width: 50, // Set the desired width
+    height: 45, // Set the desired height
+    marginRight: 50, // Space between image and text
   },
   itemText: {
     fontSize: 16,

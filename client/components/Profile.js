@@ -107,7 +107,7 @@ const Profile = ({ navigation }) => {
         <>
           <Text style={styles.title}>Profile Details</Text>
           <View style={styles.iconContainer}>
-            <Icon name="account-circle" size={150} color="#007bff" />
+            <Icon name="account-circle" size={150} color="#17202a" />
           </View>
           <View style={styles.infoContainer}>
             <Text style={styles.infoText}>
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#c6dff7',
+    backgroundColor: '#ffffff',
   },
   loadingContainer: {
     flex: 1,

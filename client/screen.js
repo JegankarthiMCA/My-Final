@@ -8,6 +8,8 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import Codehomepage from './components/Codehomepage';
 import AdminHomePage from './components/AdminHomePage';
+import AddCourse from './components/AddCourse';
+import QuizPage from './components/QuizPage';
 import UserHomePage from './components/UserHomePage';
 import MainScreen from './components/MainScreen';
 import Search from './components/Search';
@@ -126,6 +128,8 @@ const Screen = () => {
         <Stack.Screen name="codehome" component={Codehomepage} options={{ headerShown: false }} />
         <Stack.Screen name="AdminHomePage" component={AdminHomePage} options={{ headerShown: false }} />
         <Stack.Screen name="UserHomePage" component={TabScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="AddCourse" component={AddCourse} options={{ headerShown: false }} />
+        <Stack.Screen name="QuizPage" component={QuizPage} options={{ headerShown: false }} />
 
         {/* Development Pages */}
         <Stack.Screen name="HTML" component={HTML} />
