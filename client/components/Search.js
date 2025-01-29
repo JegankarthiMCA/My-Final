@@ -24,7 +24,7 @@ const DATA = [
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredData, setFilteredData] = useState(DATA.slice(0, 2)); // Show 2 items by default
+  const [filteredData, setFilteredData] = useState(DATA.slice(0, 15)); // Show 2 items by default
   const navigation = useNavigation(); // Get navigation object
 
   const handleSearch = (term) => {

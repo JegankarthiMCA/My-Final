@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#34495e',
+    backgroundColor: '#000000',
   },
   head: {
     color: 'white',
@@ -53,9 +53,9 @@ const styles = StyleSheet.create({
     marginLeft: '-21%',
   },
   button2: {
-    color: 'black',
+    color: '#ffffff',
     fontSize: 18,
-    backgroundColor: '#5dade2',
+    backgroundColor: '#800000',
     padding: 10,
     borderRadius: 30,
     marginTop: 450

@@ -144,19 +144,19 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     padding: 20,
-    backgroundColor: '#e0f7fa', // Soft light blue background
+    backgroundColor: '#2c3e50', // Soft light blue background
     justifyContent: 'center',
   },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#00796b', // Teal color for title
+    color: '#f6ddcc', // Teal color for title
     textAlign: 'center',
   },
   input: {
     height: 50,
-    borderColor: '#00796b',
+    borderColor: '#f6ddcc',
     borderWidth: 1,
     marginBottom: 15,
     paddingHorizontal: 10,
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '600',
     marginBottom: 8,
-    color: '#00796b',
+    color: '#f6ddcc',
     alignSelf: 'flex-start',
   },
   picker: {
@@ -200,17 +200,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#d32f2f',
     padding: 12,
     borderRadius: 25,
-  
     width: '80%',
-    marginBottom: 20,
+    marginBottom: 10,
     alignSelf: 'center',
   },
   logoutIcon: {
-    marginRight: 10,
+    marginRight: 70,
   },
   logoutButtonText: {
     color: '#fff',
-    alignItems: 'center',
     fontWeight: 'bold',
     fontSize: 20,
   },
